@@ -99,17 +99,57 @@
 }
 
 
-.section2_section{
+.section2_section {
     display: flex;
 }
 
 
-.section2_section_article{
+.section2_section_article_article{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.section2_section_article {
     background-color: #2C4246;
     padding: 8px;
 }
 
 
-.section2_section_article_img{
+.section2_section_article_img {
     height: 290px;
+}
+
+.section2_article_span {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    color: #D9D9D9;
+}
+
+.article_price{
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+}
+
+.star_article{
+    display: flex;
+    column-gap: 4px;
+}
+
+.article_price_950{
+    font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 27px;
+color: #05BCCA;
+}
+
+
+.section2_article_star_price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
