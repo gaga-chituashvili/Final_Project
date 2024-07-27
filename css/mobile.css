@@ -1,1 +1,16 @@
 /*480px-320px*/
+
+@media (max-width:321px){
+    /*header*/
+    .header{
+        padding-inline: 8px;
+    }
+
+
+    /*section1*/
+
+    .section1{
+        height: 320px;
+    }
+
+}
