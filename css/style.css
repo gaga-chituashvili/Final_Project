@@ -101,7 +101,7 @@ h2::before {
     display: flex;
     flex-direction: column;
     row-gap: 64px;
-    padding: 96px 94px;
+    padding: 96px 94px;;
 }
 
 
@@ -128,6 +128,12 @@ h3::after {
 .section2_section {
     display: flex;
     column-gap: 20px;
+    overflow-x: scroll;
+}
+
+
+.section2_img_frame{
+    flex: 1 1 298px;
 }
 
 
@@ -177,12 +183,14 @@ h3::after {
 .section2_article_star_price {
     display: flex;
     align-items: center;
-    column-gap: 136px;
-    /*space-between*/
+    justify-content: space-between;
+    
 }
 
 .section2_section_article_img {
     object-fit: cover;
+    width: 100%;
+    height: 290px;
 }
 
 /*footer*/
