@@ -367,17 +367,5 @@ h3::after {
 /*catalog main section*/
 
 
-.catalog_card_main_section{
-    display: flex;
-    flex-direction: row;
-}
-
-
-._catalog_card_article{
-
-    /*sigane waushale*/
-    width: 298px;
-    background-color: #2C4246;
-}
 
 
