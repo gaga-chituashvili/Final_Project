@@ -198,7 +198,6 @@ h3::after {
 
 .footer {
     background-color: #2C4246;
-    height: 276px;
     display: flex;
     justify-content: space-between;
     padding: 48px 306px;
@@ -398,6 +397,9 @@ h3::after {
 .contact_main_section {
     height: 720px;
     background-image: url(../images/contact_cover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -410,11 +412,6 @@ h3::after {
     display: flex;
     flex-direction: column;
     row-gap: 40px;
-}
-
-
-.dashboard_title {
-    width: 644px;
 }
 
 
@@ -437,6 +434,7 @@ h3::after {
 
 
 .dashboard_title {
+    width: 644px;
     font-family: Inter;
     font-size: 24px;
     font-weight: 700;
@@ -574,7 +572,7 @@ button[type=submit] {
 }
 
 
-.contact_icon_button {
+.contact_icon_link {
     width: 32px;
     height: 32px;
     display: flex;

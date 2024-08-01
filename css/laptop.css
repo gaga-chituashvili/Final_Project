@@ -1,5 +1,20 @@
 /*1439px-769px*/
 
+
+@media(max-width:1212px){
+    /*footer*/
+    .footer{
+        padding-inline: 98px;
+    }
+
+
+    /*contact section*/
+
+    .contact_main_section{
+        padding-right: 32px;
+     }
+}
+
 @media (max-width: 1025px) {
 
     /*header*/
@@ -25,6 +40,14 @@
     .footer{
         padding-inline: 98px;
     }
+
+
+
+    /*contact section*/
+
+    .contact_main_section{
+       padding-right: 45px;
+    }
 }
 
 
@@ -44,14 +67,8 @@
 
 
     .footer{
-        padding-inline: 32px;
+        padding-inline:32px;
     }
 }
 
 
-@media(max-width:1212px){
-    /*footer*/
-    .footer{
-        padding-inline: 98px;
-    }
-}
