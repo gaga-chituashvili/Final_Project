@@ -43,4 +43,14 @@
         display: flex;
         align-items: center;
     }
+
+
+    .form_and_map_section{
+        width: 440px;
+        display: flex;
+        flex-direction: column;
+
+        /*dasamtavrebeli flext */
+       
+    }
 }

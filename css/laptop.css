@@ -1,6 +1,5 @@
 /*1439px-769px*/
 
-
 @media(max-width:1212px){
     /*footer*/
     .footer{
@@ -14,6 +13,19 @@
         padding-right: 32px;
      }
 }
+
+
+@media(max-width:1025px){
+   .card12{
+    display: none;
+   }
+
+   .catalog_card_main_section{
+    width: 616px;
+   }
+    
+}
+    
 
 @media (max-width: 1025px) {
 
@@ -35,6 +47,22 @@
 
 
 
+
+
+    
+    /*catalog*/
+
+    .card9,.card8,.card7{
+        display: none;
+    }
+
+
+    .contact_main_section{
+        padding-right: 45px;
+     }
+
+    
+
     /*footer*/
 
     .footer{
@@ -46,8 +74,8 @@
     /*contact section*/
 
     .contact_main_section{
-       padding-right: 45px;
-    }
+        padding-right: 45px;
+     }
 }
 
 
