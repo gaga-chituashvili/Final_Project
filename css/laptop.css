@@ -25,11 +25,27 @@
     }
 
     .header_nav {
-        display: none;
+        position: fixed;
+        top: 99px;
+        left: -100%;
+        background-color: #C46A2B;
+        width: 200px;
+        height: 144px;
+        padding: 16px 56px 16px 16px;
+        transition: .3s linear;
+    }
+
+    .header_ul{
+        flex-direction: column;
+        row-gap: 8px;
     }
 
     .header_burger {
         display: block;
+    }
+
+    .show{
+        left: 0;
     }
 
 

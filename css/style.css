@@ -42,10 +42,14 @@
     column-gap: 32px;
 }
 
+.xmark{
+    display: none;
+}
 
 .header_burger {
     display: none;
 }
+
 
 /*section1*/
 
