@@ -1,56 +1,96 @@
 /*768px-481px*/
 
-@media(max-width:481px){
+@media(max-width:481px) {
+
     /*header*/
-    .header{
+    .header {
         padding: 28px 20px;
     }
 
     /*section1*/
 
-    h2{
+    h2 {
         font-size: 24px;
         line-height: 32px;
     }
 
 
-    /*contact section*/
-    .dashboard_title{
-        font-size: 16px;
-        line-height: 24px;
-    }
-    .gmail{
-        display: none;
-    }
-    .tell{
+    /*catalog*/
+
+    .Best_selling_span {
         display: none;
     }
 
-    .dashboard_title{
+    .Best_selling_div {
+        width: 36px;
+        height: 32px;
+        left: 124px;
+    }
+
+    .catalog_button_span {
+        display: none;
+    }
+
+
+    .catalog_direction_button,
+    .catalog_direction_button2 {
+        width: 52px;
+        height: 40px;
+    }
+
+
+    .catalog_third_section{
+        width: 280px;
+    }
+
+    /*contact section*/
+    .dashboard_title {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .gmail {
+        display: none;
+    }
+
+    .tell {
+        display: none;
+    }
+
+    .dashboard_title {
         font-size: 24px;
     }
 
 
     /*footer*/
 
-    .footer{
+    .footer {
         flex-direction: column;
         align-items: center;
         row-gap: 40px;
         padding-block: 32px;
     }
-    .nav_section{
+
+    .nav_section {
         display: flex;
         align-items: center;
     }
 
 
-    .form_and_map_section{
+    .form_and_map_section {
         width: 440px;
         display: flex;
         flex-direction: column;
 
         /*dasamtavrebeli flext */
-       
+
+    }
+
+}
+
+
+@media(max-width:451px) {
+    .img_article {
+        width: 303px;
     }
 }

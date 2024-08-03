@@ -294,7 +294,7 @@ h3::after {
 
 .cagalog_main_section {
     background-color: #012426;
-    padding: 96px 94px;
+    padding-block: 96px;
     display: flex;
     flex-direction: column;
     row-gap: 64px;
@@ -376,6 +376,11 @@ h3::after {
     gap: 40px 20px;
 }
 
+
+.firts_section_box{
+    padding-inline: 94px;
+}
+
 .catalog_card_article {
     background-color: #2C4246;
 
@@ -400,7 +405,7 @@ h3::after {
 /*catalog third section*/
 
 
-._catalog_third_section {
+.catalog_third_section {
     width: 394px;
     display: flex;
     justify-content: space-between;
