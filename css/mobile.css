@@ -13,4 +13,18 @@
         height: 320px;
     }
 
+    /*section2*/
+
+    .card1_4,.card1_3,.card1_2{
+        display: none;
+    }
+
+    .section2{
+        padding-inline: 8px;
+      }
+
+      .section2_section{
+         display: block;
+      }
+
 }
