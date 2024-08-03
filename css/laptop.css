@@ -66,17 +66,15 @@
 
     /*contact section*/
 
-    .contact_main_section{
-        padding-right: 45px;
-     }
 }
-
 
 @media(max-width:934px){
     .card9{
         display: none;
     }
 }
+
+
 
 
 @media(max-width:745px){
@@ -103,6 +101,7 @@
         padding-inline:32px;
     }
 }
+
 
 
 

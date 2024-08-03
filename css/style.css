@@ -398,9 +398,13 @@ h3::after {
     object-fit: cover;
 }
 
-.text_article {
+.text_article{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
     padding: 16px 8px;
 }
+
 
 /*catalog third section*/
 
@@ -532,17 +536,6 @@ h3::after {
     align-items: center;
     padding: 35px 40px;
     background-color: #2C4246;
-}
-
-
-
-.dashboard_title {
-    width: 644px;
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 32px;
-    color: #FFFFFF;
 }
 
 
