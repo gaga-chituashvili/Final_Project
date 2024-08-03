@@ -1,20 +1,21 @@
 /*1439px-769px*/
 
-@media(max-width:1212px){
+@media(max-width:1212px) {
+
     /*footer*/
-    .footer{
+    .footer {
         padding-inline: 98px;
     }
 
 
     /*contact section*/
 
-    .contact_main_section{
+    .contact_main_section {
         padding-right: 32px;
-     }
+    }
 }
 
-    
+
 
 @media (max-width: 1025px) {
 
@@ -34,34 +35,45 @@
 
     /*section2*/
 
-    .section2{
+    .section2 {
         padding-inline: 45px 0;
+    }
+
+    .section2_section {
+        overflow-x: scroll;
+    }
+
+    .section2_img_frame {
+        width: 282px;
+        flex: 1 1 282px;
     }
 
 
 
 
-    
+
     /*catalog*/
-.card12,.card11,.card10{
-    display: none;
-}
+    .card12,
+    .card11,
+    .card10 {
+        display: none;
+    }
 
 
-.firts_section_box{
-    padding-inline: 45px;
-}
+    .firts_section_box {
+        padding-inline: 45px;
+    }
 
 
-    .contact_main_section{
+    .contact_main_section {
         padding-right: 45px;
-     }
+    }
 
-    
+
 
     /*footer*/
 
-    .footer{
+    .footer {
         padding-inline: 98px;
     }
 
@@ -71,8 +83,8 @@
 
 }
 
-@media(max-width:934px){
-    .card9{
+@media(max-width:934px) {
+    .card9 {
         display: none;
     }
 }
@@ -80,47 +92,49 @@
 
 
 
-@media(max-width:745px){
+@media(max-width:745px) {
+
     /*header*/
-    .header{
+    .header {
         padding-inline: 32px;
     }
-    
+
 
 
     /*section1*/
-    .section1{
+    .section1 {
         height: 480px;
         padding-top: 32px;
     }
 
 
-    .firts_section_box{
+    .firts_section_box {
         padding-inline: 65px;
     }
 
 
-    .footer{
-        padding-inline:32px;
+    .footer {
+        padding-inline: 32px;
     }
 }
 
 
 
 
-@media(max-width:616px){
-    .firts_section_box{
+@media(max-width:616px) {
+    .firts_section_box {
         padding-inline: 20px;
     }
 
-    .card8,.card7,.card6,.card5{
+    .card8,
+    .card7,
+    .card6,
+    .card5 {
         display: none;
     }
 
 
-    .img_article{
+    .img_article {
         width: 440px;
     }
 }
-
-

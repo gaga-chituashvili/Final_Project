@@ -96,6 +96,12 @@
     }
 
 
+    h3{
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+
     /*catalog*/
 
     .Best_selling_span {
@@ -143,6 +149,14 @@
 
     .nav_section {
         display: flex;
+        align-items: center;
+    }
+
+    .footer_ul{
+        align-items: center;
+    }
+
+    .icon_and_nav_section{
         align-items: center;
     }
 
