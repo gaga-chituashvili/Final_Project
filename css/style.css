@@ -574,7 +574,7 @@ box-shadow: 0 0 8px 4px #05BCCACC;
 
 
 .mail_box_link {
-    ont-family: "Inter", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size:var(--footer_and_cards);
     font-weight: 400;
     line-height: 24px;
@@ -585,7 +585,7 @@ box-shadow: 0 0 8px 4px #05BCCACC;
 }
 
 .contact_box_link {
-    ont-family: "Inter", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -623,7 +623,8 @@ input[type=name] {
     outline: none;
     border: none;
     padding: 6px 8px;
-
+    color: #FFFFFF;
+    caret-color:#FFFFFF;
 }
 
 input[type=email] {
@@ -632,6 +633,8 @@ input[type=email] {
     outline: none;
     border: none;
     padding: 6px 8px;
+    color: #FFFFFF;
+    caret-color:white;
 }
 
 
@@ -642,6 +645,8 @@ textarea[name=textarea] {
     outline: none;
     border: none;
     padding: 6px 8px;
+    color: #FFFFFF;
+    caret-color:#FFFFFF;
 }
 
 
