@@ -48,9 +48,20 @@
 }
 
 
+.header_logo_link:hover{
+    filter: drop-shadow(0 0 10px #C46A2B);
+}
+
+
 .header_button_section {
     display: flex;
     column-gap: 32px;
+}
+
+
+.header_button_link:hover {
+
+    filter: drop-shadow(0 0 15px #05BCCACC);
 }
 
 .xmark {
@@ -309,7 +320,11 @@ h3::after {
     background-color: var(--catalog_selling_color);
     border-radius: 4px;
     padding: 4px 8px;
+}
 
+
+.Best_selling_div:hover{
+    filter: drop-shadow(0 0 10px #05BCCACC);
 }
 
 .Best_selling_span {
@@ -387,7 +402,8 @@ h3::after {
     width: 121px;
     height: 40px;
     border-radius: 8px;
-    background-color: #C46A2B;
+    color: var(--footer_and_catalog_text_color);
+    background-color:var( --button1_burgerbox_submit_color);
     border: none;
     display: flex;
     justify-content: center;
@@ -402,11 +418,22 @@ h3::after {
     height: 40px;
     border-radius: 8px;
     border: none;
+    color: var(--footer_and_catalog_text_color);
     background-color: var(--button2_color);
     display: flex;
     justify-content: center;
     align-items: center;
     column-gap: 16px;
+}
+
+.catalog_direction_button:hover{
+    filter: drop-shadow(0 0 10px #05BCCACC);
+}
+
+
+
+.catalog_direction_button2:hover{
+    filter: drop-shadow(0 0 10px #05BCCACC);
 }
 
 
@@ -423,6 +450,11 @@ h3::after {
     font-weight: 400;
     line-height: 24px;
     color: #D9D9D9;
+}
+
+
+.catalog_button_span:hover{
+    font-size: 20px;
 }
 
 
@@ -489,6 +521,16 @@ h3::after {
     animation-delay: .5s;
 }
 
+.fb:hover{
+    filter: drop-shadow(0 0 10px #05BCCACC);
+}
+.whatsapp:hover{
+    filter: drop-shadow(0 0 10px #05BCCACC);
+}
+.ig:hover{
+    filter: drop-shadow(0 0 10px #05BCCACC);
+}
+
 
 @keyframes icon {
 
@@ -550,6 +592,14 @@ h3::after {
     color: #D9D9D9;
 }
 
+.footer_li_link:hover {
+    font-size: 20px;
+    text-decoration-line: underline;
+    text-underline-offset: 5px;
+    filter: drop-shadow(0 0 10px #05BCCACC);
+}
+
+
 
 .icon_and_nav_section {
     display: flex;
@@ -601,8 +651,28 @@ h3::after {
 
 .contact_email,
 .contact_mobile {
-    font-size: var(--header);
-    color: #D9D9D9;
+    font-size:var(--header);
+    color:var(--footer_and_catalog_text_color);
+}
+
+.contact_email:hover{
+    filter: drop-shadow(0 0 10px #05BCCACC);
+}
+
+.contact_mobile:hover{
+    filter: drop-shadow(0 0 10px #05BCCACC);
+}
+
+
+.gmail:hover{
+    text-decoration-line: underline;
+    text-underline-offset: 5px;
+}
+
+
+.tell:hover{
+    text-decoration-line: underline;
+    text-underline-offset: 5px;
 }
 
 
@@ -632,6 +702,11 @@ h3::after {
 .location {
     font-size: 80px;
     color: var(--footer_and_catalog_text_color);
+}
+
+
+.location:hover{
+    filter: drop-shadow(0 0 10px #05BCCACC);
 }
 
 
@@ -688,7 +763,7 @@ button[type=submit] {
     background-color: var(--cards_and_footer_color);
     outline: none;
     background-color: var(--button1_burgerbox_submit_color);
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
     font-size: var(--footer_and_cards);
     font-weight: 400;
     line-height: 24px;
@@ -697,8 +772,14 @@ button[type=submit] {
 }
 
 
+button[type=submit]:hover{
+    font-size: 20px;
+    box-shadow: 0 0 8px 4px #C46A2B;
+}
+
+
 ::placeholder {
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
     font-size: 12px;
     font-weight: 400;
     line-height: 20px;
