@@ -72,6 +72,36 @@
     .location{
         font-size: 24px;
     }
+
+
+    .contact_box_icon{
+        animation: boxicon 2s ease-in-out infinite;
+    }
+
+
+    .contact_email{
+        animation-delay: 2s;
+    }
+    .contact_mobile{
+        animation-delay: 1s;
+    }
+    .location{
+        animation-delay: .5s;
+    }
+    
+
+
+    @keyframes boxicon {
+
+        0%,
+        100% {
+            transform: translateY(0);
+        }
+    
+        50% {
+            transform: translateY(-5px);
+        }
+    }
 }
 
 @media(max-width:481px) {
