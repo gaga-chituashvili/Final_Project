@@ -49,6 +49,11 @@
     }
 
 
+    .header_li_link:hover{
+        font-size:var(--header);
+    }
+
+
     /*section2*/
 
     .section2 {
