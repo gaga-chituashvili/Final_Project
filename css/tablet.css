@@ -106,17 +106,19 @@
 
 @media(max-width:481px) {
 
-    .container{
-        padding-top: 123px;
-    }
-
     /*header*/
     .header {
         padding: 28px 20px;
     }
 
-    .header_nav{
-        top: 123px;
+    .header_logo{
+        width: 40px;
+        height: 40px;
+    }
+
+    .header_button{
+        width: 32px;
+        height: 32px;
     }
 
     /*section1*/
