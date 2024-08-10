@@ -64,9 +64,8 @@
         overflow-x: scroll;
     }
 
-    .section2_img_frame {
-        width: 282px;
-        flex: 1 1 282px;
+    .section2_section_article {
+    flex: 1 0 282px;
     }
 
 
