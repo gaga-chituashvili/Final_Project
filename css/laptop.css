@@ -10,9 +10,6 @@
 
     /*contact section*/
 
-    .contact_main_section {
-        padding-right: 32px;
-    }
 }
 
 
@@ -35,7 +32,7 @@
         transition: .3s linear;
     }
 
-    .header_ul{
+    .header_ul {
         flex-direction: column;
         row-gap: 8px;
     }
@@ -44,13 +41,13 @@
         display: block;
     }
 
-    .show{
+    .show {
         left: 0;
     }
 
 
-    .header_li_link:hover{
-        font-size:var(--header);
+    .header_li_link:hover {
+        font-size: var(--header);
     }
 
 
@@ -65,7 +62,7 @@
     }
 
     .section2_section_article {
-    flex: 1 0 282px;
+        flex: 1 0 282px;
     }
 
 
@@ -73,88 +70,78 @@
 
 
     /*catalog*/
-    .card12,
-    .card11,
-    .card10 {
-        display: none;
-    }
 
 
-    .firts_section_box {
+    .cagalog_main_section {
         padding-inline: 45px;
     }
 
-
-    .contact_main_section {
-        padding-right: 45px;
-    }
-
-
-
-    /*footer*/
-
-    .footer {
-        padding-inline: 98px;
-    }
-
-
-
-    /*contact section*/
-
-}
-
-@media(max-width:934px) {
+    .card12,
+    .card11,
+    .card10,
     .card9 {
         display: none;
     }
-}
 
 
-
-
-@media(max-width:745px) {
-
-    /*header*/
-    .header {
-        padding-inline: 32px;
-    }
-
-
-
-    /*section1*/
-    .section1 {
-        height: 480px;
-        padding-top: 32px;
-    }
-
-
-    .firts_section_box {
-        padding-inline: 65px;
-    }
-
-
-    .footer {
-        padding-inline: 32px;
-    }
-}
-
-
-
-
-@media(max-width:616px) {
-    .firts_section_box {
-        padding-inline: 20px;
+    .cagalog_main_section {
+        padding: 48px 32px;
     }
 
     .card8,
-    .card7,
-    .card6,
-    .card5 {
+    .card7 {
         display: none;
+
+        .contact_main_section {
+            padding-right: 45px;
+        }
+
+
+
+        /*footer*/
+
+        .footer {
+            padding-inline: 98px;
+        }
+
+
+
+        /*contact section*/
+
+    }
+
+    @media(max-width:934px) {
+        .card9 {
+            display: none;
+        }
     }
 
 
-    .img_article {
-        width: 440px;
+
+
+    @media(max-width:745px) {
+
+        /*header*/
+        .header {
+            padding-inline: 32px;
+        }
+
+
+
+        /*section1*/
+        .section1 {
+            height: 480px;
+            padding-top: 32px;
+        }
+
+
+        .firts_section_box {
+            padding-inline: 65px;
+        }
+
+
+        .footer {
+            padding-inline: 32px;
+        }
     }
-}
+

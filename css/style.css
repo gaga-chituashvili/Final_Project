@@ -273,18 +273,19 @@ h3::after {
 
 .cagalog_main_section {
     background-color: var(--header_color);
-    padding-block: 96px;
+    padding: 96px 94px;
     display: flex;
     flex-direction: column;
     row-gap: 64px;
 }
 
 
-.catalog_first_section {
+.firts_section_box {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 
 .filter_article {
     display: flex;
@@ -366,7 +367,7 @@ h3::after {
 
 .catalog_card_article {
     background-color: var(--cards_and_footer_color);
-
+    flex: 1 1 298px;
 }
 
 .catalog_card_article:hover {
@@ -375,7 +376,7 @@ h3::after {
 
 
 .img_article {
-    width: 298px;
+    width: 100%;
     height: 298px;
 }
 
@@ -632,6 +633,7 @@ h3::after {
 
 
 .dashboard_container {
+    width: 616px;
     display: flex;
     flex-direction: column;
     row-gap: 40px;
@@ -720,6 +722,7 @@ h3::after {
 
 
 .contact_form {
+    width: 290px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 32px 103px 40px;
@@ -777,6 +780,10 @@ button[type=submit] {
     border: none;
 }
 
+input {
+    width: 100%;
+}
+
 
 button[type=submit]:hover {
     font-size: 20px;
@@ -793,10 +800,17 @@ button[type=submit]:hover {
 }
 
 
+iframe {
+    width: 100%;
+    height: 151px;
+}
+
+
 /*map section*/
 
 
 .map_section {
+    width: 286px;
     display: flex;
     flex-direction: column;
     row-gap: 25px;
