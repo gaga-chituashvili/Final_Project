@@ -14,7 +14,7 @@
 
 
 
-@media (max-width: 1025px) {
+@media (max-width: 1025px){
 
     /*header*/
     .header {
@@ -110,11 +110,15 @@
 
     }
 
+
+}
+
     @media(max-width:934px) {
         .card9 {
             display: none;
         }
     }
+
 
 
 
