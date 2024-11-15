@@ -31,6 +31,9 @@
         padding: 16px 56px 16px 16px;
         transition: .3s linear;
     }
+    .header_li_link{
+        color: white;
+    }
 
     .header_ul {
         flex-direction: column;
